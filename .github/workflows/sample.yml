@@ -24,6 +24,6 @@ jobs:
         with:
           region: ${{ secrets.AWS_S3_REGION }}
           bucket: ${{ secrets.AWS_S3_BUCKET }}
-          source: './sample'
+          source: '.'
           target: 'sample'
           #aa
