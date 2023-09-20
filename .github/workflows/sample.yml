@@ -20,7 +20,7 @@ jobs:
           aws-region: ${{ secrets.AWS_S3_REGION }}
       - name: Deploy static files to AWS S3
         id: aws-deploy-s3
-        uses: oneyedev/aws-deploy-s3@main
+        uses: RohiniAlla/aws-deploy-s3@main
         with:
           region: ${{ secrets.AWS_S3_REGION }}
           bucket: ${{ secrets.AWS_S3_BUCKET }}
